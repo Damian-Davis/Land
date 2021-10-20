@@ -1,0 +1,29 @@
+>The project was created to build authentication using Deno & JWT Tokens 
+
+I created a an interface user for the array user 
+
+I had to import the router and application from the oak 
+
+I had to create an instance of router and configue routes 
+
+I had to create an instance of application and tell the application to use the routes I just created 
+
+I moved the logic into the routes ts file 
+
+All of the routers are now in routes.ts 
+
+I had to see if the user was autheticated and if autheticated and vaules matched user I then could create the JWT token and send it to the user ( routes.ts line 14)
+
+Then had to download the djwt third party package 
+
+I had to set the payload parameters 
+
+I had to set a status 500 that the jwt did not create for some reason 
+
+I had to create the responses for invalid token correction & failed validation 
+
+I had to create authmiddleware so that way I could specify that guess endpoint doesnt accept
+
+I wrote if statments to ensure that the key was decripted and that the user was authorized
+
+The guest url does not need a JWT token

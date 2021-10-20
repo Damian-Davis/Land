@@ -1,0 +1,27 @@
+This is the project overview / steps I took (Personal Education)
+
+The Goal of this project it to read and write data from MongoDB Atlas using deno.
+
+I had to import the Oak from work and get Application 
+
+I had to create a router in order for routes to be listened to 
+
+I used methods on the router to get,create & delete notes using function imported from routes.ts 
+
+//MongoDB
+I had to connect to MongoDB Atlas by creating a cluster 
+
+Choose Shared cluster
+
+Choose cloud provider and change your cluster name 
+
+I had to create first database user and give it read and write access 
+
+I had to whitelist the ip address to allows network access 
+
+After MongoDB is connected I had to start building the router functions on route.ts 
+
+I had to ensure that all functions were exported at the bottom 
+
+Rest of information is on README.md file
+
